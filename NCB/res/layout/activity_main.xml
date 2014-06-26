@@ -5,6 +5,15 @@
     android:orientation="vertical"
     tools:context="${packageName}.${activityClass}" >
 
-    
-    
+	<Button 
+	    android:text="Write on the Tag"
+	    android:onClick="writeOnTag"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<Button 
+	    android:text="Select car application" 
+	    android:onClick="selectCar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
 </LinearLayout>
